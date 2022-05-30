@@ -10,7 +10,6 @@ dicionario2 = {f'item_{i}': i * 2 for i in range(10) if i % 2 == 0}
 print(dicionario2)
 # {'item_0': 0, 'item_2': 4, 'item_4': 8, 'item_6': 12, 'item_8': 16}
 
-
 # Percorrenr dicionário gerado
 for numero, dobro in dicionario.items():
     print(f'{numero} x 2 = {dobro}')

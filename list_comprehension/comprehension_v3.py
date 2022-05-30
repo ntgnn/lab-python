@@ -12,3 +12,4 @@ print(next(generator))  # 8^2 = saída 64
 # A diferença do generator para o list comprehension é que o generator
 # não gera de imediato todos os elementos da lista, vai gerando sob demanda
 # e com isso ocupa menos memória
+
